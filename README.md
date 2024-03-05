@@ -20,4 +20,6 @@
 2) The login page checks for the right credentials. If the input is wrong the user is notified with a message in top of his screen.
 3) The voting page checks for the right amount of "crosses" the user puts so he cannot surpass the number determined by the electoral province. We used the limits of Greek electoral provinces. If they are surpassed the user is nothified again with a message.
 4) When the user votes he is redirected to the thank you page where... he is thanked, and from which he cannot go back(we cleared the cache) because that could possible allow him to re-vote.
-5) Finally the result.php is a file that will calculate the election results and the abstentio ration and must run only when the elections have ended.   
+5) Finally the result.php is a file that will calculate the election results and the abstentio ration and must run only when the elections have ended.
+
+Contributors: [George Tokatlidis](https://github.com/george-toka)
