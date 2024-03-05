@@ -14,3 +14,10 @@
 
 ## Database creation:
   The database was created in a mysql server which we got access through PuTTY. The database was created using mysql. During the semester we also got familiar with views, triggers, transactions, stored procedures and functions but we didn't implement any instances of these due to the structure of the code.
+
+## Features:
+1) The web app was created as an extension of the goverment page/database from which we should retrieve data about the users. Because unfortunately we couldn't get access to the goverment page we created a table for the voters with username and password, that is why there is no add user feature.
+2) The login page checks for the right credentials. If the input is wrong the user is notified with a message in top of his screen.
+3) The voting page checks for the right amount of "crosses" the user puts so he cannot surpass the number determined by the electoral province. We used the limits of Greek electoral provinces. If they are surpassed the user is nothified again with a message.
+4) When the user votes he is redirected to the thank you page where... he is thanked, and from which he cannot go back(we cleared the cache) because that could possible allow him to re-vote.
+5) Finally the result.php is a file that will calculate the election results and the abstentio ration and must run only when the elections have ended.   
