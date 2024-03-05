@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost","lab2324omada1","ASFALES22","lab2324omada1_ELECTIONS");
+$conn = mysqli_connect("localhost","name","password","database_name"); // Make the proper changes
 
 // Check connection
 if (mysqli_connect_errno())
